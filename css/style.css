@@ -1,0 +1,58 @@
+.nav-bg1{
+	position: fixed;
+	background-color: white;
+	background:transparent!important;
+	width: 100%;
+	padding: 0 50px;
+	z-index: 34!important;
+}
+.nav{
+	position: absolute;
+	right: 50px!important;
+}
+.nav-bg{
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	padding: 0 50px;
+	z-index: 34!important;
+	}
+.home{
+	height: 100vh;
+	background-image: url(../images/home.png);
+	background-size: cover;
+	webkit-clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 100%, 67% 89%, 33% 100%, 0 86%, 0% 43%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 100%, 67% 89%, 33% 100%, 0 86%, 0% 43%, 0 0);
+}
+.home:after{
+	content: "";
+
+}
+.layer{
+	width: 100%;
+    height: 100%;
+	background-color: #d2803b80;
+	position: relative;
+}
+.caption{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%,-50%);
+}
+.caption h1{
+	font-size: 80px;
+	font-weight: 900;
+}
+.top-cat{
+	background-image: url(../images/h4_cate_bg.jpg);
+	text-align: center;
+}
+.owl-item{
+	padding-left: 10px;
+}
+.form{
+	text-align: center;
+}
+.active{}
