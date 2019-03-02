@@ -1,12 +1,9 @@
 <?php
-
-
-
-$con = mysqli_connect("localhost","root","","me_trying");
+/*$con = mysqli_connect("localhost","root","","me_trying");
 $q = "SELECT Name,me_url FROM me_tr_products";
 $result = mysqli_query($con,$q);
 
-?>
+*/?>
 
 <!DOCTYPE html>
 <html>
@@ -114,12 +111,12 @@ $result = mysqli_query($con,$q);
     <div class="owl-stage-outer">
         <div class="owl-stage">
           <?php
-          if($result-> num_rows > 0){
+          /*if($result-> num_rows > 0){
             while ($row = $result->fetch_assoc()) {
               echo '<div class="owl-item"><img class="img-fluid" src="'.$row["me_url"].'"><div class="item-body"><h5>'.$row["Name"]. '</h5></div></div>';
             }
-          }
-            
+          }*/
+            echo '<div class="owl-item"><img class="img-fluid" src="images/h4_cate1.png"><div class="item-body"><h5>Eggs</h5></div></div>';
             ?>
         </div>
     </div>
